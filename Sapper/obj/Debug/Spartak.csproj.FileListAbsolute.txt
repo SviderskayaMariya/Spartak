@@ -1,0 +1,109 @@
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Sapper_MarkupCompile.cache
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Sapper.exe.config
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Sapper.exe
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Sapper.pdb
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Sapper_MarkupCompile.lref
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Sapper.g.resources
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Sapper.Properties.Resources.resources
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Spartak.csproj.GenerateResource.Cache
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Spartak.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Sapper.exe
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Sapper.pdb
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\bg.jpg
+C:\Users\User\source\repos\Sapper\Sapper\obj\Debug\Sapper_Content.g.cs
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Rebrov.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Adriano.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Ananidze.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Boketti.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Glushakov.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Jikiya.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Yeschenko.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Zobnin.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Kombarov.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Kutepov.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Luich.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Petkovich.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Popov.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Promes.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Samedov.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Selikhov.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Tasky.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Fernando.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Tigiyev.jpg
+C:\Users\User\source\repos\Sapper\Sapper\bin\Debug\Melgareho.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Sapper.exe.config
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Sapper.exe
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Sapper.pdb
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\bg.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Adriano.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Ananidze.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Boketti.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Glushakov.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Jikiya.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Yeschenko.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Zobnin.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Kombarov.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Kutepov.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Luich.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Melgareho.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Petkovich.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Popov.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Promes.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Rebrov.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Samedov.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Selikhov.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Tasky.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Tigiyev.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Fernando.jpg
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Sapper.exe
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\bin\Debug\Sapper.pdb
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Spartak.csprojResolveAssemblyReference.cache
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\MainWindow.g.cs
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\App.g.cs
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Sapper_Content.g.cs
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Sapper_MarkupCompile.cache
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Sapper_MarkupCompile.lref
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\MainWindow.baml
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Sapper.g.resources
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Sapper.Properties.Resources.resources
+C:\Users\Даня\Documents\Visual Studio 2015\Projects\Sapper\Sapper\obj\Debug\Spartak.csproj.GenerateResource.Cache
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\bg.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Adriano.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Ananidze.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Boketti.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Glushakov.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Jikiya.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Yeschenko.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Zobnin.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Kombarov.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Kutepov.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Luich.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Melgareho.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Petkovich.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Popov.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Promes.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Rebrov.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Samedov.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Selikhov.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Tasky.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Tigiyev.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Fernando.jpg
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Sapper.exe.config
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Sapper.exe
+C:\Users\Dasha\Desktop\Sapper\Sapper\bin\Debug\Sapper.pdb
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\MainWindow.g.cs
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\App.g.cs
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Sapper_Content.g.cs
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Sapper_MarkupCompile.cache
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Sapper_MarkupCompile.lref
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\MainWindow.baml
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Sapper.g.resources
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Sapper.Properties.Resources.resources
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Spartak.csproj.GenerateResource.Cache
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Spartak.csproj.CoreCompileInputs.cache
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Sapper.exe
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Sapper.pdb
+C:\Users\Dasha\Desktop\Sapper\Sapper\obj\Debug\Spartak.csprojResolveAssemblyReference.cache

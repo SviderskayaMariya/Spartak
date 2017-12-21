@@ -1,0 +1,138 @@
+﻿<Window x:Class="Sapper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sapper"
+        mc:Ignorable="d"
+        Title="Основной состав " Height="500" Width="1000" ResizeMode="NoResize">
+    <Grid  Margin="5">
+        <Grid.Background>
+            <ImageBrush ImageSource="bg.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="146*"/>
+            <RowDefinition Height="147*"></RowDefinition>
+            <RowDefinition Height="140*"></RowDefinition>
+            <RowDefinition Height="11*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"></ColumnDefinition>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="97*"></ColumnDefinition>
+            <ColumnDefinition Width="98*"></ColumnDefinition>
+            <ColumnDefinition Width="97*"></ColumnDefinition>
+            <ColumnDefinition Width="98*"></ColumnDefinition>
+            <ColumnDefinition Width="98*"></ColumnDefinition>
+            <ColumnDefinition Width="98*"></ColumnDefinition>
+            <ColumnDefinition Width="97*"></ColumnDefinition>
+            <ColumnDefinition Width="98*"></ColumnDefinition>
+            <ColumnDefinition Width="98*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="1" Grid.Row="1" Margin="4,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;РЕБРОВ&#xa;Артём" Tag="1" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush ImageSource="Rebrov.jpg" Stretch="Uniform"/>
+
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="1" Grid.Row="2" Margin="4,5,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;СЕЛИХОВ&#xa;Александр" Tag="2" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Selikhov.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="2" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ПЕТКОВИЧ&#xa;Марко" Tag="3" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush ImageSource="Petkovich.jpg" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="2" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ТАСКИ&#xa;Сердар" Tag="4" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Tasky.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="3" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ДЖИКИЯ&#xa;Георгий" Tag="5" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Jikiya.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="3" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;БОККЕТТИ&#xa;Сальваторе" Tag="6" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Boketti.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="4" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ТИГИЕВ&#xa;Георгий"  Tag="7" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Tigiyev.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="4" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;КОМБАРОВ&#xa;Дмитрий" Tag="8" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Kombarov.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="5" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;КУТЕПОВ&#xa;Илья" Tag="9" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Kutepov.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="5" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ЕЩЕНКО&#xa;Андрей" Tag="10" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Yeschenko.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="6" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;АНАНИДЗЕ&#xa;Джано" Tag="11" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Ananidze.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="6" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ГЛУШАКОВ&#xa;Денис" Tag="12" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Glushakov.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="7" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ПРОМЕС&#xa;Квинси" Tag="13" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Promes.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="7" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ФЕРНАНДО&#xa;Лукас Мартинс" Tag="14" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Fernando.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="8" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;САМЕДОВ&#xa;Александр" Tag="15" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Samedov.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="8" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;МЕЛЬГАРЕХО&#xa;Лоренсо" Tag="16" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Melgareho.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="9" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ЗОБНИН&#xa;Роман" Tag="17" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Zobnin.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="9" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;ПОПОВ&#xa;Ивелин" Tag="18" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Popov.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="10" Grid.Row="1" Margin="5,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;Зе&#xa;ЛУИШ" Tag="19" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Luich.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Column="10" Grid.Row="2" Margin="5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;Луис&#xa;АДРИАНО" Tag="20" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
+            <Button.Background>
+                <ImageBrush ImageSource="Adriano.jpg" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+
+        <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="11" Grid.RowSpan="2"  />
+        <TextBox Grid.Column="2" Grid.ColumnSpan="8" Grid.Row="3" Text="{Binding Info}" TextWrapping="Wrap" FontSize="20" IsReadOnly="True"/>
+    </Grid>
+</Window>
