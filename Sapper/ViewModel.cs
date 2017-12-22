@@ -26,11 +26,13 @@ namespace Sapper
             role = e;
             number = f;
         }
+        //REVIEW: Почему бы не сделать это в перегрузке ToString()
         public string InfoPlayer()
         {
             return $"Игрок: {name.Trim()},     Дата рождения: {bdate.ToShortDateString()},     Рост: {height},     Вес: {weight},     Гражданство: {nationality},     Амплуа: {role},     Номер: {number}.";
         }
     }
+    //REVIEW: Класс - в отдельный файл, не надо мешать
     internal class ViewModel : INotifyPropertyChanged
     {
         private string _info;
@@ -52,6 +54,7 @@ namespace Sapper
         {
             if (obj == null || !(obj is string)) return;
             Player player = null;
+            //REVIEW: строку подключения - в настройки
             using (SqlConnection connect = new SqlConnection("Data Source =.\\SQLEXPRESS; Initial Catalog = Спартак; Integrated Security = True"))
             {
                 SqlCommand load = new SqlCommand($"select [name], birthday, height, weight, nationality, role, number from spartak where [key] = {(string)obj}", connect);
@@ -83,7 +86,7 @@ namespace Sapper
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
     }
-
+    //REVIEW: В отдельный файл
     internal class Command : ICommand
     {
         public Action<object> Function { get; set; }

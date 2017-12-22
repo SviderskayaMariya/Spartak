@@ -30,6 +30,7 @@
             <ColumnDefinition Width="98*"></ColumnDefinition>
             <ColumnDefinition Width="98*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        <!--Это надо делать через биндинг коллекции-->
         <Button Grid.Column="1" Grid.Row="1" Margin="4,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;РЕБРОВ&#xa;Артём" Tag="1" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
             <Button.Background>
                 <ImageBrush ImageSource="Rebrov.jpg" Stretch="Uniform"/>
