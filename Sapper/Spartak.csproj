@@ -37,6 +37,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,6 +56,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Command.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="ViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -159,69 +162,69 @@
     <None Include="Resources\na_rabochij_stol_oboi_futbolnoe_pole_2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bg.jpg">
+    <Resource Include="Images\1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Adriano.jpg">
+    </Resource>
+    <Resource Include="Images\10.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Ananidze.jpg">
+    </Resource>
+    <Resource Include="Images\11.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Boketti.jpg">
+    </Resource>
+    <Resource Include="Images\12.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Glushakov.jpg">
+    </Resource>
+    <Resource Include="Images\13.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Jikiya.jpg">
+    </Resource>
+    <Resource Include="Images\14.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Yeschenko.jpg">
+    </Resource>
+    <Resource Include="Images\15.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Zobnin.jpg">
+    </Resource>
+    <Resource Include="Images\16.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Kombarov.jpg">
+    </Resource>
+    <Resource Include="Images\17.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Kutepov.jpg">
+    </Resource>
+    <Resource Include="Images\18.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Luich.jpg">
+    </Resource>
+    <Resource Include="Images\19.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Melgareho.jpg">
+    </Resource>
+    <Resource Include="Images\2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Petkovich.jpg">
+    </Resource>
+    <Resource Include="Images\20.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Popov.jpg">
+    </Resource>
+    <Resource Include="Images\3.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Promes.jpg">
+    </Resource>
+    <Resource Include="Images\4.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Rebrov.jpg">
+    </Resource>
+    <Resource Include="Images\5.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Samedov.jpg">
+    </Resource>
+    <Resource Include="Images\6.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Selikhov.jpg">
+    </Resource>
+    <Resource Include="Images\7.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Tasky.jpg">
+    </Resource>
+    <Resource Include="Images\8.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Tigiyev.jpg">
+    </Resource>
+    <Resource Include="Images\9.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fernando.jpg">
+    </Resource>
+    <Resource Include="Images\bg.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

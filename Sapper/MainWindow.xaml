@@ -3,33 +3,51 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
         xmlns:local="clr-namespace:Sapper"
         mc:Ignorable="d"
         Title="Основной состав " Height="500" Width="1000" ResizeMode="NoResize">
-    <Grid  Margin="5">
+    <Grid  Margin="5,5,13,13">
         <Grid.Background>
-            <ImageBrush ImageSource="bg.jpg"/>
+            <ImageBrush ImageSource="Images/bg.jpg"/>
         </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition Height="9*"></RowDefinition>
-            <RowDefinition Height="146*"/>
-            <RowDefinition Height="147*"></RowDefinition>
-            <RowDefinition Height="140*"></RowDefinition>
-            <RowDefinition Height="11*"/>
+            <RowDefinition/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0*"></ColumnDefinition>
-            <ColumnDefinition Width="97*"/>
-            <ColumnDefinition Width="97*"></ColumnDefinition>
-            <ColumnDefinition Width="98*"></ColumnDefinition>
-            <ColumnDefinition Width="97*"></ColumnDefinition>
-            <ColumnDefinition Width="98*"></ColumnDefinition>
-            <ColumnDefinition Width="98*"></ColumnDefinition>
-            <ColumnDefinition Width="98*"></ColumnDefinition>
-            <ColumnDefinition Width="97*"></ColumnDefinition>
-            <ColumnDefinition Width="98*"></ColumnDefinition>
-            <ColumnDefinition Width="98*"></ColumnDefinition>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="4*"/>
         </Grid.ColumnDefinitions>
+<<<<<<< HEAD
+        <ListView Grid.Column="1" Grid.Row="1" ItemsSource="{Binding PlayersList}" Name="Players">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction Command="{Binding LoadPlayer}"  CommandParameter="{Binding ElementName=Players, Path=SelectedItem}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </ListView>
+        <Grid Grid.Row="1" Grid.Column="3">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Row="1" Grid.Column="1" Source="{Binding Photo}"/>
+            <TextBox Grid.Row="1" Grid.Column="4" Text="{Binding Info}" TextWrapping="Wrap"/>
+        </Grid>
+=======
         <!--Это надо делать через биндинг коллекции-->
         <Button Grid.Column="1" Grid.Row="1" Margin="4,0,5,5" Content="&#xa;&#xa;&#xa;&#xa;&#xa;РЕБРОВ&#xa;Артём" Tag="1" Command="{Binding LoadPlayer}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Tag}">
             <Button.Background>
@@ -135,5 +153,6 @@
 
         <TextBlock Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="11" Grid.RowSpan="2"  />
         <TextBox Grid.Column="2" Grid.ColumnSpan="8" Grid.Row="3" Text="{Binding Info}" TextWrapping="Wrap" FontSize="20" IsReadOnly="True"/>
+>>>>>>> dcfeacf43e6ad6cada3bc2b74f03e7fa7407c400
     </Grid>
 </Window>
